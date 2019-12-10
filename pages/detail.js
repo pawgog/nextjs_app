@@ -3,13 +3,14 @@ import { useRouter } from 'next/router'
 
 export default function BatmanDetail() {
   const router = useRouter();
-  const batmanID = router.query;
+  const batmanID = router.query.id;
 
   return (
-    <div className="detail-block">
-      <Link href="/">
+    <div className='detail-block'>
+      <Link href='/'>
         <a>BACK</a>
       </Link>
+      <p>Batman ID: { batmanID }</p>
     </div>
   )
 };

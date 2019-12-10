@@ -3,7 +3,7 @@ import Head from 'next/head';
 import 'isomorphic-unfetch';
 
 import BatmanBox from '../components/batmanBox';
- 
+import '../scss/styles.scss'
  
 export default class Movies extends Component {
   static async getInitialProps() {
@@ -18,14 +18,16 @@ export default class Movies extends Component {
       <div>
         <Head>
             <title>Next routing</title>
-            <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+            <meta name='viewport' content='initial-scale=1.0, width=device-width' />
         </Head>
-        {this.props.movies.map((movie, index) => (
-          <BatmanBox
-            key={index}
-            movie={movie}
-          />
-        ))}
+        <section className='batman-block'>
+          {this.props.movies.map((movie, index) => (
+            <BatmanBox
+              key={index}
+              movie={movie}
+            />
+          ))}
+        </section>
       </div>
     )
   }
