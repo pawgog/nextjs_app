@@ -1,4 +1,6 @@
-# Next.js application.
+# Next.js application
+
+Movies list loading on static website thanks Next.js framework
 
 ### Instalation
 
