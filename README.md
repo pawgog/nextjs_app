@@ -1,6 +1,7 @@
-Next.js application.
+# Next.js application.
 
-Instalation
+### Instalation
+
 git clone repository
 go to app folder
 $ npm install
