@@ -6,6 +6,7 @@ Movies list loading on static website thanks Next.js framework
 
 - git clone repository
 - go to app folder
+- `$ npm install --save next`
 - `$ npm install`
 - `$ npm run build`
-- `$ npm start`
+- `$ npm run dev`
