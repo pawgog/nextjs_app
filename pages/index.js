@@ -17,7 +17,7 @@ export default class Movies extends Component {
 
   render() {
     return (
-      <div>
+      <div className="batman">
         <Head>
           <title>Next routing</title>
           <meta

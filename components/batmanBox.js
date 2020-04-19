@@ -14,7 +14,7 @@ export default function BatmanBox({ movie }) {
         dangerouslySetInnerHTML={{ __html: movie.show.summary }}
       />
       <a className="batman-block__btn" href={movie.show.url}>
-        <span>More...</span>
+        <span>more...</span>
       </a>
     </div>
   );
