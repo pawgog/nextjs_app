@@ -17,7 +17,7 @@ export default class Movies extends Component {
 
   render() {
     return (
-      <div className="batman">
+      <main>
         <Head>
           <title>Next routing</title>
           <meta
@@ -31,7 +31,7 @@ export default class Movies extends Component {
             <BatmanBox key={index} movie={movie} />
           ))}
         </section>
-      </div>
+      </main>
     );
   }
 }
